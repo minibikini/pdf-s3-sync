@@ -1,0 +1,14 @@
+run.config:
+  engine: python
+
+  cache_dirs:
+    - bin
+
+  extra_path_dirs:
+    - bin
+
+  extra_packages:
+    - py27-awscli
+
+  extra_steps:
+    - bash script/setup.sh
